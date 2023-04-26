@@ -1,8 +1,14 @@
-import streamlit as st
-
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import argparse
+from sklearn.preprocessing import minmax_scale
+import time
+from omic_learn_2 import *
 from gcn import GCN
 from metrics import *
-from omic_learn_2 import *
+import streamlit as st
 
 
 def intgrated5_fold(state):
