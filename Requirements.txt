@@ -130,9 +130,9 @@ tinycss2==1.1.1
 toml==0.10.2
 tomli==2.0.1
 toolz==0.12.0
-torch==2.0.0+cu117
-torchaudio==2.0.1+cu117
-torchvision==0.15.1+cu117
+torch==2.0.0
+torchaudio==2.0.1
+torchvision==0.15.1
 tornado==6.2
 tqdm==4.59.0
 traitlets==5.4.0
