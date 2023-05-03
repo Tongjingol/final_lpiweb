@@ -5,7 +5,7 @@ description = "A Streamlit app that uses Python libraries for machine learning a
 authors = ["Your Name <youremail@example.com>"] # 作者信息
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2"
+pytest = { version = "^6.2", python = ">=3.6" }
 
 # 新增 python 属性
 [tool.poetry.dependencies]
